@@ -31,4 +31,7 @@ public class Event {
     @Min(value = 1, message = "Capacity must be at least 1")
     private int capacity;
 
+    @Column(columnDefinition = "LONGTEXT")
+    private String posterImage;
+
 }
